@@ -8,4 +8,8 @@ class Video {
 
     static constraints = {
     }
+
+    def getYoutubeKey(){
+    	
+    }
 }
