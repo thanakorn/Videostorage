@@ -6,4 +6,8 @@ class VideoController {
     	def videos = Video.findAll()
     	[videos:videos]
     }
+
+    def create(){
+    	
+    }
 }
