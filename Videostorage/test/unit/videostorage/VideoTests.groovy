@@ -21,6 +21,10 @@ class VideoTests {
     	vdo.description == "Test Video"
     }
 
+    void testSeperatingTag(){
+        // vdo can have more tags
+    }
+
     void testGetYoutubeKey(){
     	def vdo = new Video(title:'Test create video',
     						url:'http://www.youtube.com/watch?v=uY7pymdB5ec',
