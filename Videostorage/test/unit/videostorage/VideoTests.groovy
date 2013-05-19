@@ -25,6 +25,6 @@ class VideoTests {
     	def vdo = new Video(title:'Test create video',
     						url:'http://www.youtube.com/watch?v=uY7pymdB5ec',
     						description:'Test Video')
-    	assert vdo.getYoutubeKey() == "uY7pymdB5ec"
+    	assert vdo.getYoutubeKey() == 'uY7pymdB5ec'
     }
 }

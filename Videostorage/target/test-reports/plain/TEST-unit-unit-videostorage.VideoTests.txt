@@ -1,10 +1,13 @@
 Testsuite: videostorage.VideoTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.372 sec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.076 sec
 ------------- Standard Output ---------------
 --Output from testCreateVideo--
+--Output from testGetYoutubeKey--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from testCreateVideo--
+--Output from testGetYoutubeKey--
 ------------- ---------------- ---------------
 
-Testcase: testCreateVideo took 0.368 sec
+Testcase: testCreateVideo took 0.055 sec
+Testcase: testGetYoutubeKey took 0.017 sec
