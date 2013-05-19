@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Thanakorn-PC" name="videostorage.VideoControllerTests" tests="1" time="0.204" timestamp="2556-05-19T10:06:25">
-  <properties />
-  <testcase classname="videostorage.VideoControllerTests" name="testSomething" time="0.138" />
-  <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-</testsuite>
