@@ -12,6 +12,5 @@ class VideoController {
     							  url:params.url,
     							  description:params.description)
     	new_video.save()
-    	redirect(action:'index')
     }
 }
