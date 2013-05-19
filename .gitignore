@@ -1,0 +1,26 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/Videostorage/target*
+*.log
+
+Videostorage/target/stacktrace.log
+
+Videostorage/target/test-reports/TEST-unit-unit-videostorage.VideoControllerTests.xml
+
+Videostorage/target/test-reports/TEST-unit-unit-videostorage.VideoTests.xml
+
+Videostorage/target/test-reports/TESTS-TestSuites.xml
+
+Videostorage/target/test-reports/html/all.html
+
+Videostorage/target/test-reports/html/failed.html
+
+Videostorage/target/test-reports/html/index.html
+
+Videostorage/target/test-reports/html/index.html
+
+Videostorage/target/test-reports/plain/TEST-unit-unit-videostorage.VideoTests.txt
