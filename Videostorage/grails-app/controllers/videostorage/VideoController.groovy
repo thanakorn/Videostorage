@@ -12,8 +12,10 @@ class VideoController {
 	    	def new_video = new Video(title:params.title,
 	    							  url:params.url,
 	    							  description:params.description)
-	    	new_video.save()
+            if( new_video.getYoutubeKey() != null )
+	    	  new_video.save()
 	    	redirect(action:'index')
     	}
     }
+
 }

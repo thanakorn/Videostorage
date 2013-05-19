@@ -16,15 +16,18 @@ class VideoTests {
     	vdo.description == "Test Video"
     }
 
-    void testSeperatingTag(){
-        // vdo can have more tags
-    }
-
     void testGetYoutubeKey(){
     	def vdo = new Video(title:'Test create video',
     						url:'http://www.youtube.com/watch?v=uY7pymdB5ec',
     						description:'Test Video')
     	assert vdo.getYoutubeKey() == 'uY7pymdB5ec'
+    }
+
+    void testInvalidUrl(){
+        def vdo = new Video(title:'Test invalid video',
+                            url:'http://www.google.com',
+                            description:'Google')
+        assert vdo.getYoutubeKey() == null
     }
 
     void testContraints(){

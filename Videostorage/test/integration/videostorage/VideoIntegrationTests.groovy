@@ -5,9 +5,13 @@ import org.junit.*
 
 class VideoIntegrationTests {
 
+    def controller
+
+
     @Before
     void setUp() {
         // Setup logic here
+        controller = new VideoController()
     }
 
     @After
@@ -19,4 +23,5 @@ class VideoIntegrationTests {
     void testSomething() {
         // 
     }
+
 }
