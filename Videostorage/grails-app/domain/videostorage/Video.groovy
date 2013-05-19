@@ -6,8 +6,6 @@ class Video {
 	String url
 	String description
 
-    static hasMany = [tags:Tag]
-
     static constraints = {
     	title blank:false
     	url blank:false
@@ -17,4 +15,5 @@ class Video {
     def getYoutubeKey(){
     	return url.substring(url.indexOf('=')+1)
     }
+
 }
