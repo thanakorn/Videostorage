@@ -6,3 +6,4 @@
 *.ear
 Videostorage/target*
 *.log
+Videostorage/target/test-reports/plain/TEST-unit-unit-videostorage.VideoControllerTests.txt
