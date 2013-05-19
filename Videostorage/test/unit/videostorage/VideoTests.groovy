@@ -31,4 +31,12 @@ class VideoTests {
     						description:'Test Video')
     	assert vdo.getYoutubeKey() == 'uY7pymdB5ec'
     }
+
+    void testContraints(){
+    	def vdo = new Video(title:'Test create video',
+    						url:'',
+    						description:'')
+    	vdo.save()
+    	assert vdo.count() == 0
+    }
 }

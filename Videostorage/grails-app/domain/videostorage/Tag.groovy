@@ -2,13 +2,13 @@ package videostorage
 
 class Tag {
 
-	String name
+	String tag
 
     static constraints = {
-    	name blank:false
+    	tag blank:false
     }
 
     def getTag(){
-    	name
+    	return tag
     }
 }
