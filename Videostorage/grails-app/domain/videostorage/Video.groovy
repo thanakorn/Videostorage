@@ -13,6 +13,6 @@ class Video {
     }
 
     def getYoutubeKey(){
-    	url.substring(url.indexOf('=')+1)
+    	return url.substring(url.indexOf('=')+1)
     }
 }
