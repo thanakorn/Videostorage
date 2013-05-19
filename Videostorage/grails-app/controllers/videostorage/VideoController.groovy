@@ -8,9 +8,12 @@ class VideoController {
     }
 
     def create(){
-    	def new_video = new Video(title:params.title,
-    							  url:params.url,
-    							  description:params.description)
-    	new_video.save()
+    	if( params.title != null ){
+	    	def new_video = new Video(title:params.title,
+	    							  url:params.url,
+	    							  description:params.description)
+	    	new_video.save()
+	    	redirect(action:'index')
+    	}
     }
 }
