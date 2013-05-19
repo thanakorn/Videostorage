@@ -1,5 +1,5 @@
 <h1>My Video Storage</h1>
-
+<a href="create">Add Video</a>
 <ul>
   <% if(videos.size() == 0) { %>
     <li>No videos</li>

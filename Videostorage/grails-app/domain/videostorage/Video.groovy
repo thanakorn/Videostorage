@@ -7,6 +7,9 @@ class Video {
 	String description
 
     static constraints = {
+    	title blank:false
+    	url blank:false
+    	description blank:false
     }
 
     def getYoutubeKey(){
