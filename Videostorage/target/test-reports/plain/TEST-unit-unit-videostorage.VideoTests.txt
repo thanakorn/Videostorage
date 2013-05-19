@@ -1,0 +1,10 @@
+Testsuite: videostorage.VideoTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.372 sec
+------------- Standard Output ---------------
+--Output from testCreateVideo--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testCreateVideo--
+------------- ---------------- ---------------
+
+Testcase: testCreateVideo took 0.368 sec

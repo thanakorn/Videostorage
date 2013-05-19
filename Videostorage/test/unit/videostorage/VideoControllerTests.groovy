@@ -11,7 +11,8 @@ import org.junit.*
 @TestFor(VideoController)
 class VideoControllerTests {
 
-    void testSomething() {
-       fail "Implement me"
-    }
+	void testSomething(){
+		
+	}
+
 }
