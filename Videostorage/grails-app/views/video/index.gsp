@@ -3,7 +3,7 @@
 <g:form name="videoCreateForm" url="[action:'create']">
   Title: <g:textField name="title"/><br/>
   URL: <g:textField name="url"/><br/>
-  Description: <g:textField name="description"/><br/>
+  Description:</br> <g:textArea name="description" rows='5' cols='50'/><br/>
   <input type="submit" value="Add New Video"/>
 </g:form>
 
@@ -15,7 +15,11 @@
   <% } else { %>
     <% for(video in videos) { %>
       <li>
-	  	<iframe width="560" height="315" src="http://www.youtube.com/embed/<%=video.getYoutubeKey()%>" frameborder="0" allowfullscreen></iframe>
+      	<div>
+      		<h2><%=video.title%></h2>
+	  		<iframe width="560" height="315" src="http://www.youtube.com/embed/<%=video.getYoutubeKey()%>" frameborder="0" allowfullscreen></iframe>
+	  		<h3>Description : </h3><%=video.description%>
+	  	</div>
 	  </li>
     <% } %> 
   <% } %>
