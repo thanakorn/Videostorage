@@ -15,7 +15,7 @@
   <% } else { %>
     <% for(video in videos) { %>
       <li>
-	  
+	  	<iframe width="560" height="315" src="http://www.youtube.com/embed/<%=video.getYoutubeKey()%>" frameborder="0" allowfullscreen></iframe>
 	  </li>
     <% } %> 
   <% } %>
