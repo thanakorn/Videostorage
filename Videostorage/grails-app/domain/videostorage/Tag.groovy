@@ -4,6 +4,8 @@ class Tag {
 
 	String tag
 
+	static belongsTo = [video:Video]
+
     static constraints = {
     	tag blank:false
     }

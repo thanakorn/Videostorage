@@ -6,6 +6,8 @@ class Video {
 	String url
 	String description
 
+    static hasMany = [tags:Tag]
+
     static constraints = {
     	title blank:false
     	url blank:false
