@@ -4,7 +4,7 @@
   Title: <g:textField name="title"/><br/>
   URL: <g:textField name="url"/><br/>
   Description:</br> <g:textArea name="description" rows='5' cols='50'/><br/>
-  <input type="submit" value="Add New Video"/>
+  <input type="submit" value="Add Video"/>
 </g:form>
 
 <hr>
