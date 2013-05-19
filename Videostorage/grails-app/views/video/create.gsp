@@ -1,5 +1,5 @@
-<h1>Create Video</h1>
-
+<center><h1>Create Video</h1></center>
+</hr>
 <g:form name="videoCreateForm" url="[action:'create']">
   Title : <g:textField name="title"/><br/>
   URL: <g:textField name="url"/><br/>
