@@ -13,10 +13,12 @@ class Video {
     }
 
     def getYoutubeKey(){
-        int keyIndex = url.indexOf('=')
+        String youtube = "http://www.youtube.com/watch?v="
+        int keyIndex = url.indexOf("http://www.youtube.com/watch?v=")
         if( keyIndex == -1 )
             return null
-    	return url.substring(keyIndex+1)
+        keyIndex += youtube.length()
+    	return url.substring(keyIndex)
     }
 
 }

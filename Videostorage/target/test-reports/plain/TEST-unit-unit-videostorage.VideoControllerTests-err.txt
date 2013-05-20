@@ -1,2 +1,4 @@
---Output from testSomething--
 --Output from testInvalidUrl--
+--Output from testBlankForm--
+--Output from testBlankTitle--
+--Output from testNotStartWithHttp--
